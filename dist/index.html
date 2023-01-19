@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="./main.js" defer></script>
+    <title>Dynamic User Interface</title>
+</head>
+<body>
+    <header>
+        <h1>Dynamic User Interface</h1>
+    </header>
+
+    <h2>Dropdown Menu</h2>
+
+    <nav class="container" id="dropdown-container">
+        <ul id="main-menu">
+            <li data-menu='produits'>Nos produits</li>
+            <li data-menu="magasins">Nos Magasins</li>
+            <li data-menu="contact">Contact</li>
+        </ul>
+        <div class="content dropdown-menu" id="menu-produits">
+            <div class="dropdown-left">
+                <div class="selected">Chiens<span class="material-symbols-outlined">navigate_next</span></div>
+                <div>Chats<span class="material-symbols-outlined">navigate_next</span></div>
+                <div>Oiseaux<span class="material-symbols-outlined">navigate_next</span></div>
+                <div>Rongeurs<span class="material-symbols-outlined">navigate_next</span></div>
+            </div>
+        </div>
+        <div class="content dropdown-menu" id="menu-magasins">
+            content
+        </div>
+        <div class="content dropdown-menu" id="menu-contact">
+            content
+        </div>
+    </nav>
+
+    <!-- React here -->
+
+</body>
+</html>
